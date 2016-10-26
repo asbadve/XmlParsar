@@ -12,4 +12,5 @@ import java.util.List;
 public class Forecast {
     @ElementList(name = "time", inline = true)
     private List<WTime> wTimes;
+
 }
